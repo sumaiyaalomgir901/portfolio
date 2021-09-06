@@ -1,0 +1,78 @@
+/* Customize  */
+customize-color {
+  color: #bfbfbf;
+  color: #cececd;
+  color: #dbdcda;
+  color: #ebebeb;
+  color: #002333;
+  color: #370d1d;
+  color: #cb356b;
+  color: #bd3f32;
+}
+/*------------------------
+    Some common style
+ ----------------------- */
+span {
+  color: #bd3f32;
+}
+h1 {
+  font-size: 3.4rem;
+  margin: 0px;
+}
+.paragraph {
+  color: #d6d6d6;
+  width: 80%;
+}
+.padding-top {
+  padding-top: 50px;
+}
+/* Header Part Style Start */
+
+header .menu {
+  background-color: #002333;
+}
+.logo-img {
+  width: 25%;
+}
+.logo-img img {
+  width: 100%;
+}
+.nav-link {
+  font-size: 1.1rem;
+  color: #cececd;
+}
+/* Header Part Style End */
+
+.banner-img {
+  background-image: url("../images/banner-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.banner-img .right a {
+  background-image: linear-gradient(to right, #ed4264, #bd3f32);
+}
+/* 
+-----------------------------------
+        MEDIA QUERY SECTION 
+-----------------------------------
+*/
+/* ----------------------------------------  max-width:991px ----------------------- */
+@media screen and (max-width: 991px) {
+  .logo-img {
+    width: 30%;
+  }
+}
+/* ----------------------------------------  max-width:767px ----------------------- */
+@media screen and (max-width: 767px) {
+  .logo-img {
+    width: 40%;
+  }
+}
+/* ----------------------------------------  max-width:460px ----------------------- */
+@media screen and (max-width: 460px) {
+  .logo-img {
+    width: 50%;
+  }
+}
